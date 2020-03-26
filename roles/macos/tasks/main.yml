@@ -1,0 +1,6 @@
+- import_tasks: defaults.yml
+  tags:
+    - defaults
+# - import_tasks: network.yml
+#   tags:
+#     - network
