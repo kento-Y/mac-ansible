@@ -1,0 +1,66 @@
+global_defaults:
+  ###############################################################################
+  # General
+  ###############################################################################
+  # InterfaceStyle
+  - key: AppleInterfaceStyle
+    type: string
+    value: Light
+  - key: com.apple.mouse.tapBehavior
+    type: int
+    value: 1
+
+apple_defaults:
+  ###############################################################################
+  # Finder
+  ###############################################################################
+  # Finder: Show dotfiles
+  - domain: finder
+    key: AppleShowAllFiles
+    type: bool
+    value: true
+  # SystemUIServer
+  - domain: systemuiserver
+    key: menuExtras
+    type: array
+    value:
+      - "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+      - "/System/Library/CoreServices/Menu Extras/Battery.menu"
+      - "/System/Library/CoreServices/Menu Extras/Clock.menu"
+  # Show the battery percentage from the menu bar
+  - domain: menuextra.battery
+    key: ShowPercent
+    type: string
+    value: YES
+  - domain: menuextra.clock
+    key: DateFormat
+    type: string
+    value: M\u6708d\u65e5(EEE) H:mm
+  defaults write com.apple.menuextra.clock DateFormat -string "M\u6708d\u65e5(EEE) H:mm"
+  # Dock
+  - domain: dock
+    key: orientation
+    type: string
+    value: left
+  - domain: dock
+    key: show-recents
+    type: int
+    value: 0
+  - domain: dock
+    key: tilesize
+    type: int
+    value: 46
+  # Trackpad
+  - domain: driver.AppleBluetoothMultitouch.trackpad
+    key: Clicking
+    type: bool
+    value: true
+  - domain: trackpad.scaling
+    key: scaling
+    type: int
+    value: 3
+
+  - domain: desktopservices
+    key: DSDontWriteNetworkStores
+    type: bool
+    value: true
