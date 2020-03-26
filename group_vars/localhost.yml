@@ -14,15 +14,19 @@ homebrew_packages:
   - name: x264
   - name: x265
 homebrew_cask_packages:
+  - name: box-sync
   - name: enpass
   - name: docker
   - name: google-chrome
   - name: google-japanese-ime
   - name: iterm2
+  - name: karabiner-elements
   - name: notion
   - name: slack
   - name: spetacle
   - name: visual-studio-code
+  - name: xmind-zen
+  - name: zoomus
 dot_files:
   - .vimrc
 code_extensions:
