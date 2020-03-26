@@ -1,0 +1,33 @@
+homebrew_taps:
+  - homebrew/cask
+  - homebrew/core
+homebrew_packages:
+  - name: ansible
+  - name: awscli
+  - name: bash-completion
+  - name: docker
+  - name: ffmpeg
+  - name: git
+  - name: tree
+  - name: vim
+  - name: wget
+  - name: x264
+  - name: x265
+homebrew_cask_packages:
+  - name: enpass
+  - name: docker
+  - name: google-chrome
+  - name: google-japanese-ime
+  - name: iterm2
+  - name: notion
+  - name: slack
+  - name: spetacle
+  - name: visual-studio-code
+dot_files:
+  - .vimrc
+code_extensions:
+  - vscode-icons-team.vscode-icons
+  - coenraads.bracket-pair-colorizer
+  - mechatroner.rainbow-csv
+  - shardulm94.trailing-spaces
+  - ms-vscode-remote.remote-containers

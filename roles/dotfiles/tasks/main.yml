@@ -1,0 +1,17 @@
+- block:
+
+  - name: checkout dotfiles
+    git:
+      repo: https://github.com/kento-Y/dotfiles.git
+      dest: ~/workspace/settings/dotfiles
+
+  - name: create symlinks
+    file:
+      src: ~/workspace/settings/dotfiles/{{ item.name }}
+      dest: ~/{{ item.name }}
+      state: link
+      force: yes
+    with_items: '{{ dot_files }}'
+
+  tags:
+    - dotfiles

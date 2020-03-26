@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "welcomePage",
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    }
+}
