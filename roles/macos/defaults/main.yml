@@ -36,7 +36,6 @@ apple_defaults:
     key: DateFormat
     type: string
     value: M\u6708d\u65e5(EEE) H:mm
-  defaults write com.apple.menuextra.clock DateFormat -string "M\u6708d\u65e5(EEE) H:mm"
   # Dock
   - domain: dock
     key: orientation
