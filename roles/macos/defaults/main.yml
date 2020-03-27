@@ -52,8 +52,8 @@ apple_defaults:
   # Trackpad
   - domain: driver.AppleBluetoothMultitouch.trackpad
     key: Clicking
-    type: bool
-    value: true
+    type: int
+    value: 1
   - domain: trackpad.scaling
     key: scaling
     type: int
