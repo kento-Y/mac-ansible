@@ -23,7 +23,7 @@ homebrew_cask_packages:
   - name: karabiner-elements
   - name: notion
   - name: slack
-  - name: spetacle
+  - name: spectacle
   - name: visual-studio-code
   - name: xmind-zen
   - name: zoomus
