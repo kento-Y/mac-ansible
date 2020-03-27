@@ -28,7 +28,9 @@ homebrew_cask_packages:
   - name: xmind-zen
   - name: zoomus
 dot_files:
-  - .vimrc
+  - name: .vimrc
+  - name: .config/karabiner/karabiner.json
+  - name: .latexmkrc
 code_extensions:
   - vscode-icons-team.vscode-icons
   - coenraads.bracket-pair-colorizer
